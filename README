@@ -1,1 +1,29 @@
 
+Dengue detection and prediction system using data mining with frequency analysis
+
+This CD has the following contents:
+1. DDPS - This folder contains the source code, data set used and other auxiallary files needed
+2. References - This folder contains the publications used as references for the project
+3. DDPS.jar - Executable jar file that displays the GUI
+4. Report.pdf - Report of the work done for Dengue detection and prediction system using data mining with frequency analysis.
+5. External jar used - Folder containing all necessary external jars.
+6. Data set is present within DDPS folder as DataSet. This is a collection of 100 discharge summaries used for the project.
+7. Source code is present in DDPS/src/tagging. The main file is tagTextToFile.java
+8. umls.txt is an external compressed medical dictionary used for the project and is present in DDPS folder.
+9. test.arff is a test file used to test the model, and is present in DDPS folder.
+
+***************************************
+PROCEDURE TO USE THE GUI :
+1. Double click in DDPS.jar to run the GUI
+2. In Researchers tab, supply the data set by selecting the DataSet folder.
+3. Click the start button to obtain results of evaluating this DataSet using SMO by 10-fold cross validation.
+4. In the patients tab, supply symptoms experiences, along with other requested data.
+5. Prediction using the trained model is obtained in the evaluation text area.
+6. In the graph GUI generated, click on "View Graph" to visualize the data set and the distribution of the symptoms over the months.
+
+****************************************
+PROCEDURE TO RUN THE CODE :
+1. Import DDPS.jar into Eclipse.
+2. Add the jars from External jars used to the external jars in the project
+3. tagTextToFile.java contains the main function and is the point of code entry.
+4. Run the project to view results and obtain output files.
