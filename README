@@ -5,12 +5,11 @@ This CD has the following contents:
 1. DDPS - This folder contains the source code, data set used and other auxiallary files needed
 2. References - This folder contains the publications used as references for the project
 3. DDPS.jar - Executable jar file that displays the GUI
-4. Report.pdf - Report of the work done for Dengue detection and prediction system using data mining with frequency analysis.
-5. External jar used - Folder containing all necessary external jars.
-6. Data set is present within DDPS folder as DataSet. This is a collection of 100 discharge summaries used for the project.
-7. Source code is present in DDPS/src/tagging. The main file is tagTextToFile.java
-8. umls.txt is an external compressed medical dictionary used for the project and is present in DDPS folder.
-9. test.arff is a test file used to test the model, and is present in DDPS folder.
+4. External jar used - Folder containing all necessary external jars.
+5. Data set is present within DDPS folder as DataSet. This is a collection of 100 discharge summaries used for the project.
+6. Source code is present in DDPS/src/tagging. The main file is tagTextToFile.java
+7. umls.txt is an external compressed medical dictionary used for the project and is present in DDPS folder.
+8. test.arff is a test file used to test the model, and is present in DDPS folder.
 
 ***************************************
 PROCEDURE TO USE THE GUI :
